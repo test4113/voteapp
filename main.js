@@ -2,7 +2,7 @@ class Poll {
     constructor(root, title) {
         this.root = root;
         this.selected = sessionStorage.getItem("poll-selected");
-        this.endpoint = "https://testvotemovie.herokuapp.com/poll";
+        this.endpoint = "https://spidermanvote.herokuapp.com/poll";
 
         this.root.insertAdjacentHTML("afterbegin", `
             <div class="poll__title">${ title }</div>

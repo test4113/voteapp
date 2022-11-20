@@ -57,9 +57,6 @@ class Poll {
         }
     }
 }
-
-setInterval(_refresh,1000)
-
 const p = new Poll(
     document.querySelector(".poll"),
     "Which do you prefer?"
